@@ -1,40 +1,9 @@
-//import {UsersListResponse} from '../../responses'
+import { default as mockResponses } from '../../responses'
 
+const { UsersListResponse } = mockResponses;
 
-
-const UsersListResponse ={
-    "usersList": [
-        {
-            "name": "mathew",
-            "lastName": "perry",
-            "gender": "male"
-        },
-        {
-            "name": "Lisa",
-            "lastName": "kudrow",
-            "gender": "female"
-        },
-        {
-            "name": "Matt",
-            "lastName": "leblanc",
-            "gender": "male"
-        },
-        {
-            "name": "David",
-            "lastName": "schwimmer",
-            "gender": "male"
-        },{
-            "name": "Jennefer",
-            "lastName": "anniston",
-            "gender": "female"
-        }
-    ]
-}
 const userHandlers = {
-    getAllUsersResponse: ()=> ([
-        200,
-        UsersListResponse
-    ])
+    getAllUsersResponse: () => ([200, UsersListResponse])
 }
 
 export default userHandlers

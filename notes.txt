@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/49358313/json-loader-in-webpack-config-js-not-working

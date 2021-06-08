@@ -1,0 +1,23 @@
+{
+  "name": "mock-module",
+  "version": "1.0.0",
+  "description": "mock module implementation using axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarojd799/mock-module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarojd799/mock-module/issues"
+  },
+  "homepage": "https://github.com/sarojd799/mock-module#readme",
+  "devDependencies": {
+    "axios-mock-adapter": "^1.19.0"
+  }
+}
